@@ -1,7 +1,8 @@
 import "assets/scss/styles.scss";
 
 import React, { Component } from "react";
-import Example from "components/Example";
+import LowerCase from "components/LowerCase";
+import Recette from "components/Recette";
 
 class App extends Component {
 	constructor() {
@@ -12,7 +13,8 @@ class App extends Component {
 	render() {
 		return (
 			<>
-				<Example />
+				<LowerCase />
+				<Recette />
 			</>
 		);
 	}
