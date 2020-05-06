@@ -2,7 +2,7 @@ import "assets/scss/styles.scss";
 
 import React, { Component } from "react";
 import LowerCase from "components/LowerCase";
-import Recette from "components/Recette";
+import Pendu from "components/Pendu";
 
 class App extends Component {
 	constructor() {
@@ -13,8 +13,7 @@ class App extends Component {
 	render() {
 		return (
 			<>
-				<LowerCase />
-				<Recette />
+				<Pendu />
 			</>
 		);
 	}

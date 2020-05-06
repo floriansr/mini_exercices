@@ -1,3 +1,8 @@
-.red {
-	color: red;
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.mr {
+	margin-right: 5px;
 }
