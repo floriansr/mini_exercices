@@ -1,8 +1,23 @@
 {
-    "parser": "babel-eslint",
-    "extends": ["airbnb", "prettier", "prettier/react"],
-    "plugins": ["prettier"],
-    "rules": {
-        "react/jsx-props-no-spreading": ["off"]
-    }
+	"env": {
+		"browser": true
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"moduleDirectory": [
+					"node_modules",
+					"src" // replace with your app-module-path directory
+				]
+			}
+		}
+	},
+
+	"parser": "babel-eslint",
+	"extends": ["airbnb", "prettier", "prettier/react"],
+	"plugins": ["prettier"],
+	"rules": {
+		"react/jsx-props-no-spreading": ["off"],
+		"no-console": ["off"]
+	}
 }
