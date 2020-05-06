@@ -18,6 +18,16 @@
 	"plugins": ["prettier"],
 	"rules": {
 		"react/jsx-props-no-spreading": ["off"],
-		"no-console": ["off"]
+		"no-console": ["off"],
+
+		"jsx-a11y/label-has-associated-control": [
+			"warn",
+			{
+				"labelComponents": [],
+				"labelAttributes": [],
+				"controlComponents": [],
+				"assert": "nesting"
+			}
+		]
 	}
 }

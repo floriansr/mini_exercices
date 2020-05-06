@@ -1,7 +1,7 @@
 import "assets/scss/styles.scss";
 
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import Example from "components/Example";
 
 class App extends Component {
 	constructor() {
@@ -12,7 +12,7 @@ class App extends Component {
 	render() {
 		return (
 			<>
-				<p>starter</p>
+				<Example />
 			</>
 		);
 	}
